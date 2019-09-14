@@ -9,7 +9,12 @@
     <body>
         <header class="v-header container">
             <div class="fullscreen-video-wrap">
-                <video src="./assets/video/intro.mov" autoplay loop muted></video>
+                <video autoplay loop muted>
+                    <source src="./assets/video/intro.ogg" type="video/ogg"> 
+                    <source src="./assets/video/intro.webm" type="video/webm">
+                    <source src="./assets/video/intro.mp4" type="video/mp4">
+                    <source src="./assets/video/intro.mov" type="video/quicktime">
+                </video>
             </div>
             <div class="header-overlay"></div>
             <div class="header-content">
